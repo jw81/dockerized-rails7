@@ -48,7 +48,7 @@ This is a bare-bones example of how to use Docker Compose to Dockerize a Rails 7
       depends_on:
         - db
       environment:
-        - DATABASE_URL=postgres://postgres:password@db:5432/  postgres
+        - DATABASE_URL=postgres://postgres:password@db:5432/postgres
       volumes:
         - .:/app
 
